@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(body: Center(child: Text("Amazonext App"))),
+      home: const Scaffold(
+        body: Center(child: Text('Welcome to Amazonext!')),
+      ),
     );
   }
 }
